@@ -366,6 +366,39 @@ h1,h2,h3,h4,h5,h6,strong,b,.title,.section-title,.artist-name {
   font-weight:700 !important;
 }
 </style>
+
+<style id="desktop-final-fix">
+@media (min-width: 761px){
+  html,body{min-width:100%;background:#020202}
+  .page{width:min(100%,1320px)!important;max-width:1320px!important;margin:0 auto!important;min-height:100vh;overflow:hidden}
+  .hero{min-height:700px!important;height:auto!important}
+  .hero-inner{width:100%;max-width:1220px!important;margin:0 auto!important;padding:85px 48px 48px!important}
+  .hero-top{align-items:center;gap:55px}
+  .cover-frame{width:290px!important;height:290px!important}
+  .identity{max-width:760px!important}
+  .identity h1{font-size:clamp(52px,5.5vw,78px)!important}
+  .identity p{font-size:18px!important}
+  .hero-actions{margin:42px 0 34px!important}
+  .social-links{grid-template-columns:repeat(4,1fr)!important;gap:14px!important}
+  .social-card{height:76px!important;padding:0 16px!important}
+  .tabs{max-width:1180px;margin:14px auto 0!important;padding:10px 16px!important}
+  .content{width:min(100%,1180px);margin:0 auto;padding:10px 24px 55px!important}
+  .grid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:18px!important}
+  .card{min-width:0}
+  .sectionHead{margin-top:30px!important}
+  .links-portal{width:100%;max-width:none!important}
+  .footer{padding-bottom:32px!important}
+}
+@media (min-width:761px) and (max-width:1050px){
+  .hero-inner{padding-left:32px!important;padding-right:32px!important}
+  .hero-top{gap:32px}
+  .cover-frame{width:220px!important;height:220px!important}
+  .identity h1{font-size:52px!important}
+  .grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  .content{padding-left:20px!important;padding-right:20px!important}
+}
+</style>
+
 </head>
 <body>
 <!-- 🎵 أضف روابط الأغاني هنا فقط -->
